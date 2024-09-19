@@ -1,5 +1,5 @@
 clear all
-b=load('PierreAuger_Multiplex_Coauthorship/Dataset/pierreauger_multiplex.edges');
+b=load('pierreauger_multiplex.edges');
 for n=1:numel(b(:,1))
 A{b(n,1)}(b(n,2),b(n,3))=b(n,4);
 end
